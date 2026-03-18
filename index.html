@@ -1,0 +1,139 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Darren Jones Music</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #111;
+      color: white;
+      text-align: center;
+    }
+
+    nav {
+      background: black;
+      padding: 15px;
+      position: sticky;
+      top: 0;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    header {
+      background: url('https://images.unsplash.com/photo-1511379938547-c1f69419868d') center/cover;
+      height: 400px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    header h1 {
+      font-size: 50px;
+      margin: 0;
+    }
+
+    section {
+      padding: 50px 20px;
+    }
+
+    button {
+      padding: 12px 25px;
+      background: #1db954;
+      border: none;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+
+    .about-img {
+      width: 200px;
+      border-radius: 50%;
+      margin-top: 20px;
+    }
+
+    iframe {
+      margin-top: 20px;
+      max-width: 600px;
+      width: 100%;
+    }
+
+    footer {
+      background: black;
+      padding: 10px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#music">Music</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<header id="home">
+  <h1>Darren Jones Music</h1>
+  <p>Music Producer | Artist</p>
+  <a href="#music">
+    <button>Listen Now</button>
+  </a>
+</header>
+
+<section id="about">
+  <h2>About Me</h2>
+
+  <img class="about-img" src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e">
+
+  <p>
+    My name is Darren Jones and I am a music artist and producer based in the UK.
+    I create original music influenced by a range of genres and styles.
+  </p>
+
+  <p>
+    I am passionate about producing high-quality music and developing my sound.
+    My goal is to grow as an artist, build a fanbase, and share my work with a wider audience.
+  </p>
+</section>
+
+<section id="music">
+  <h2>My Music</h2>
+  <p>Listen to my latest tracks below:</p>
+
+  <!-- 🔥 REPLACE THIS WITH YOUR REAL SOUNDCLOUD LINK -->
+  <iframe height="166" scrolling="no" frameborder="no"
+    src="https://w.soundcloud.com/player/?url=https://soundcloud.com/YOUR-USERNAME">
+  </iframe>
+
+  <p>New music coming soon!</p>
+</section>
+
+<section id="contact">
+  <h2>Contact Me</h2>
+
+  <p>
+    For collaborations, feedback or opportunities, please get in touch.
+  </p>
+
+  <!-- 🔥 PUT YOUR REAL EMAIL HERE -->
+  <p>Email: your@email.com</p>
+</section>
+
+<footer>
+  © Darren Jones Music 2026
+</footer>
+
+</body>
+</html>
